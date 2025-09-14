@@ -1,0 +1,46 @@
+# QVeritas Production Dependencies
+# Quantum-Resistant Cryptographic Framework
+
+# Core cryptographic libraries
+cryptography>=41.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Post-quantum cryptography (NIST standards)
+pqcrypto>=0.1.0
+kyber-py>=0.2.0
+dilithium-py>=0.1.0
+
+# Mathematical verification
+sympy>=1.12
+z3-solver>=4.12.0
+
+# Performance and benchmarking
+psutil>=5.9.0
+memory-profiler>=0.60.0
+cProfile
+
+# Data handling and serialization
+pandas>=2.0.0
+jsonschema>=4.17.0
+
+# Development and testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-benchmark>=4.0.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.5.0
+
+# Documentation
+sphinx>=7.0.0
+sphinx-rtd-theme>=1.3.0
+
+# Jupyter for research notebooks
+jupyter>=1.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Academic paper generation
+latex>=0.7.0
+pylatex>=1.4.0
